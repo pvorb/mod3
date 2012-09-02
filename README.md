@@ -1,4 +1,4 @@
-mod4
+mod3
 ====
 
 a cross-platform keyboard layout for programmers
@@ -14,10 +14,10 @@ US-keyboards. For example on German Qwertz keyboards you have to hold `Alt Gr`
 and hit `7` for a `{`. Since in many programming languages such special
 characters are very common, programming can be a tedious work.
 
-This library tries to improve the situation by using a 4th modifier key, the
-`Caps Lock`, (others are `Ctrl`, `Alt` and `Shift`) to allow you to comforably
-type characters that are otherwise difficult to reach. Since `Caps Lock` usually
-is more annoying than helpful (eVERYBODY HITS IT ACCIDENTALY FROM TIME TO TIME),
+This library tries to improve the situation by using a 3rd modifier key, the
+`Caps Lock`, (others are `Shift` or `Alt Gr`) to allow you to comforably type
+characters that are otherwise difficult to reach. Since `Caps Lock` usually is
+more annoying than helpful (eVERYBODY HITS IT ACCIDENTALY FROM TIME TO TIME),
 this character can be used for this purpose.
 
 TODO
