@@ -20,6 +20,23 @@ characters that are otherwise difficult to reach. Since `Caps Lock` usually is
 more annoying than helpful (eVERYBODY HITS IT ACCIDENTALY FROM TIME TO TIME),
 this character can be used for this purpose.
 
+Layer 3
+-------
+
+First draft of the layout.
+
+    ┌───┬──┬──┬──┬──┬──┬──┬──┬──┬──┬──┬──┬──┬───────┐
+    |   │  │  │  │  │  │  │  │  │  │  │  │  │ Backsp|
+    ├───┴─┬┴─┬┴─┬┴─┬┴─┬┴─┬┴─┬┴─┬┴─┬┴─┬┴─┬┴─┬┴─┬─────┤
+    │ Tab │ <│ >│ {│ }│ "│ !│ 7│ 8│ 9│ %│ ^│ `│ Ret │
+    ├─────┴┬─┴┬─┴┬─┴┬─┴┬─┴┬─┴┬─┴┬─┴┬─┴┬─┴┬─┴┬─┴┐    │
+    │ M3   │ \│ /│ (│ )│ '│ ?│ 4│ 5│ 6│ +│ -│ *│    │
+    ├────┬─┴┬─┴┬─┴┬─┴┬─┴┬─┴┬─┴┬─┴┬─┴┬─┴┬─┴┬─┴──┴────┤
+    │Shft│ @│ $│ #│ [│ ]│ ~│ &│ 1│ 2│ 3│ =│  Shift  │
+    ├────┼──┼──┼──┴──┴──┴──┴──┴──┴─┬┴──┴┬─┴┬──┬─────┤
+    │Ctrl│Wi│Al│         0         │AltG│Wi│Cm│Ctrl |
+    └────┴──┴──┴───────────────────┴────┴──┴──┴─────┘
+
 TODO
 ----
 
@@ -34,7 +51,7 @@ Credits
 -------
 
 This project is inspired by the [Neo Layout](http://neo-layout.org/), a project
-that already has a similar mod4 keyboard layer for programmers, but also changes
+that already has a similar mod3 keyboard layer for programmers, but also changes
 the first and second layer to a more ergonomic one. Because not everybody has
 the patience to learn a completely new keyboard layout, I started this
 alternative.
