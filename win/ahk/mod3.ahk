@@ -1,8 +1,7 @@
 ; initialisation
-name=Mod3
-enable=Enable %name%
-disable=Disable %name%
 #LTrim                  ; allow source code to be indented
+
+menu,tray,icon,mod3.ico,,1
 
 ; turn off caps lock
 SetCapslockState AlwaysOff
@@ -59,7 +58,7 @@ CapsLock & SC01B::Send {``}{Space} ; CL + ]
 CapsLock & SC027::Send {*}         ; CL + ;
 CapsLock & SC028::Send {~}         ; CL + '
 
-CapsLock & SC029::Send {^}{Space}  ; CL + \
+CapsLock & SC02B::Send {^}{Space}  ; CL + \
 CapsLock & SC035::Send {=}         ; CL + /
 
 ; Navigation
