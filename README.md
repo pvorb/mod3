@@ -20,32 +20,46 @@ characters that are otherwise difficult to reach. Since `Caps Lock` usually is
 more annoying than helpful (eVERYBODY HITS IT ACCIDENTALY FROM TIME TO TIME),
 this character can be used for this purpose.
 
-Layer 3
--------
+Third draft
+-----------
 
-_Second draft_
+### Layer 3
 
     ┌───┬──┬──┬──┬──┬──┬──┬──┬──┬──┬──┬──┬──┬───────┐
-    │   │  │  │  │  │  │  │  │  │  │  │  │  │Backsp |
+    │   │ ‚│ ‘│ ’│ ›│ ‹│ »│ «│ „│ “│ ”│ ?│  │Backsp |
     ├───┴─┬┴─┬┴─┬┴─┬┴─┬┴─┬┴─┬┴─┬┴─┬┴─┬┴─┬┴─┬┴─┬─────┤
-    │ Tab │ <│ >│ {│ }│ ?│ !│ 7│ 8│ 9│ +│ %│ `│ Ret │
+    │ Tab │ …│ _│ [│ ]│ ^│ !│ <│ >│ =│ &│  │  │ ↲   │
     ├─────┴┬─┴┬─┴┬─┴┬─┴┬─┴┬─┴┬─┴┬─┴┬─┴┬─┴┬─┴┬─┴┐    │
-    │ M3   │ \│ /│ (│ )│ '│ "│ 4│ 5│ 6│ *│ ~│ ^│    │
+    │ M3   │ \│ /│ (│ )│ *│ ?│ (│ )│ -│ :│ @│M3│    │
     ├────┬─┴┬─┴┬─┴┬─┴┬─┴┬─┴┬─┴┬─┴┬─┴┬─┴┬─┴┬─┴──┴────┤
-    │ Sh │ @│ $│ #│ [│ ]│ |│ &│ 1│ 2│ 3│ =│  Shift  │
+    │ Sh │M4│ #│ $│ |│ ~│ `│ +│ %│ "│ '│ ;│  Shift  │
     ├────┼──┼──┼──┴──┴──┴──┴──┴──┴─┬┴──┴┬─┴┬──┬─────┤
-    │Ctrl│ W│Al│         0         │AltG│ W│Cm│Ctrl │
+    │Ctrl│ W│Al│                   │ M4 │ W│Cm│Ctrl │
     └────┴──┴──┴───────────────────┴────┴──┴──┴─────┘
+
+### Layer 4
+
+    ┌───┬──┬──┬──┬──┬──┬──┬──┬──┬──┬──┬──┬──┬───────┐
+    │   │  │ ²│ ³│  │  │  │ {│ [│ ]│ }│ \│  │Backsp |
+    ├───┴─┬┴─┬┴─┬┴─┬┴─┬┴─┬┴─┬┴─┬┴─┬┴─┬┴─┬┴─┬┴─┬─────┤
+    │ Tab │  │ ⇍│ ↑│ ⇍│  |  │ 7│ 8│ 9│  │  │  │ ↲   │
+    ├─────┴┬─┴┬─┴┬─┴┬─┴┬─┴┬─┴┬─┴┬─┴┬─┴┬─┴┬─┴┬─┴┐    │
+    │ M3   │ ↤│ ←│ ↓│ →│ ↦│  │ 4│ 5│ 6│  │  │M3│    │
+    ├────┬─┴┬─┴┬─┴┬─┴┬─┴┬─┴┬─┴┬─┴┬─┴┬─┴┬─┴┬─┴──┴────┤
+    │ Sh │M4│ €│  │ ↲│  │  │  │ 1│ 2│ 3│  │  Shift  │
+    ├────┼──┼──┼──┴──┴──┴──┴──┴──┴─┬┴──┴┬─┴┬──┬─────┤
+    │Ctrl│ W│Al│         0         │ M4 │ W│Cm│Ctrl │
+    └────┴──┴──┴───────────────────┴────┴──┴──┴─────┘
+
 
 TODO
 ----
 
 Here’s a tasklist of what has to be done.
 
-1. Specify the keyboard layout
-2. Windows implementation
-3. Linux implementation
-4. Mac OS X implementation (need know-how)
+1. Windows implementation
+2. Linux implementation
+3. Mac OS X implementation
 
 Credits
 -------
@@ -61,7 +75,7 @@ License
 
 (The MIT License)
 
-Copyright © 2012 Paul Vorbach
+Copyright © 2012-2013 Paul Vorbach
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
 this software and associated documentation files (the “Software”), to deal in
